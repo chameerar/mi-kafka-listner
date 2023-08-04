@@ -8,7 +8,7 @@
         <parameter name="value.deserializer">org.apache.kafka.common.serialization.StringDeserializer</parameter>
         <parameter name="topic.name">weatherdatatopic</parameter>
         <parameter name="poll.timeout">100</parameter>
-        <parameter name="bootstrap.servers">0.tcp.in.ngrok.io:15608</parameter>
+        <parameter name="bootstrap.servers">0.tcp.in.ngrok.io:12545</parameter>
         <parameter name="group.id">hello</parameter>
         <parameter name="contentType">application/json</parameter>
         <parameter name="key.deserializer">org.apache.kafka.common.serialization.StringDeserializer</parameter>
