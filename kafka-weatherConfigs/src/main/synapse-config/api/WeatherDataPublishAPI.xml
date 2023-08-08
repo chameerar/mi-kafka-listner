@@ -11,6 +11,8 @@
                 <timeout>8000</timeout>
                 <metadataFetchTimeout>5000</metadataFetchTimeout>
                 <maxPoolSize>50</maxPoolSize>
+                <securityProtocol>SASL_SSL</securityProtocol>
+                <saslJaasConfig>org.apache.kafka.common.security.plain.PlainLoginModule required username="5LPT2NCBNGUOHUP7" password="xOn3o/Svk9sH+qjPp4Qvm5giDvWTgBngEeu4XSBF08bOmQYNfwfTE+VS8pZpdGnB";</saslJaasConfig>
             </kafkaTransport.init>
             <kafkaTransport.publishMessages>
                 <topic>orders</topic>
