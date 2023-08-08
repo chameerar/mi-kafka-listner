@@ -3,7 +3,7 @@
     <resource methods="POST">
         <inSequence>
             <kafkaTransport.init>
-                <bootstrapServers>0.tcp.in.ngrok.io:12545</bootstrapServers>
+                <bootstrapServers>pkc-6ojv2.us-west4.gcp.confluent.cloud:9092</bootstrapServers>
                 <keySerializerClass>org.apache.kafka.common.serialization.StringSerializer</keySerializerClass>
                 <valueSerializerClass>org.apache.kafka.common.serialization.StringSerializer</valueSerializerClass>
                 <acks>all</acks>
@@ -13,7 +13,7 @@
                 <maxPoolSize>50</maxPoolSize>
             </kafkaTransport.init>
             <kafkaTransport.publishMessages>
-                <topic>weatherdatatopic</topic>
+                <topic>orders</topic>
             </kafkaTransport.publishMessages>
             <payloadFactory media-type="json">
                 <format>
